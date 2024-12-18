@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"  rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                <i class="ri-service-line"></i> StuartLittlePetClinic
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="index.html" class="nav__link">Home</a></li>
+
+                 <li><a href="about.html" class="nav__link">About Us</a></li>
+
+                 <li><a href="facilities.html" class="nav__link">Our Facilities</a></li>
+
+                 <li><a href="contactus.html" class="nav__link">Contact Us</a></li>
+
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Appointment <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-pie-chart-line"></i> mobile no
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> email id
+                          </a>
+                       </li>
+                    </li>
+                 
+
+              </ul>
+           </div>
+        </nav>
+     </header>
+
+
+
+
+
+     <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video src="videos/IMG_4970.MP4" autoplay controls muted></video>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Contact.jpg" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/ayla-verschueren-nWKMtmbpxQs-unsplash.jpg" alt="Slide 3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/wim/3.jpeg" alt="Slide 4">
+          </div>
+          <div class="carousel-item">
+            <img src="images/jametlene-reskp-fliwkBbS7oM-unsplash.jpg" alt="Slide 5">
+          </div>
+          <div class="carousel-item">
+            <img src="images/wim/4.jpeg" alt="Slide 6">
+          </div>
+        </div>
+        <a class="carousel-prev" href="#"></a>
+        <a class="carousel-next" href="#"></a>
+      </div>
+
+
+
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <section id="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <img src="images/Black Beige Minimalist Simple Modern Typography Vanilla Cosmetics Logo.png" alt="About Us Image">
+            <div class="text">
+                <p>Welcome to our pet clinic. We provide comprehensive services for your pets, including medical care, grooming, and boarding. Our team of experienced veterinarians and staff are dedicated to ensuring the health and well-being of your pets.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+<section id="facilities" class="container my-5">
+    <h2 class="section-title">Our Facilities</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images/image-asset.jpeg" class="card-img-top" alt="Facility 1">
+                <div class="card-body">
+                    <h5 class="card-title">Modern Veterinary Equipment</h5>
+                    <p class="card-text">We have state-of-the-art equipment to ensure the best care for your pets.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images/luxury-suite.jpg" class="card-img-top" alt="Facility 2">
+                <div class="card-body">
+                    <h5 class="card-title">Comfortable Pet Boarding</h5>
+                    <p class="card-text">Our boarding facilities provide a comfortable and safe environment for your pets.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images/pet-products.jpg" class="card-img-top" alt="Facility 3">
+                <div class="card-body">
+                    <h5 class="card-title">Fully Stocked Pet Pharmacy</h5>
+                    <p class="card-text">We carry a full range of medications and supplements for your pets' needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="map">
+    <h2 class="section-title">Find Us Here</h2>
+    <div class="locat">
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.300650323634!2d80.23578247454915!3d13.14342601108886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52651c11000003%3A0xe4ce5c3bd7a4469a!2sStuart%20Little%20Pet%20Clinic%20%26%20Pet%20Shop!5e0!3m2!1sen!2sin!4v1718788579512!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

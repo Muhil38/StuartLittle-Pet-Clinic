@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YJ9Q6K9L7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YJ9Q6K9L7');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+ :root{
+    --black-color: hsl(220, 24%, 12%);
+  --black-color-light: hsl(220, 24%, 15%);
+  --black-color-lighten: hsl(220, 20%, 18%);
+  --white-color: #fff;
+  --body-color: hsl(207, 10%, 83%);
+ }
+
+body{
+    background-color: var(--black-color-lighten);
+}
+        #about {
+    padding: 60px 0;
+    background-color: var(--white-color);
+    box-shadow: 0 8px 8px 8px rgba(39, 39, 39, 0.1); /* Mild box shadow */
+    border-radius: 10px;
+    margin: 90px auto;
+    max-width: 1200px;
+    color: rgb(48, 47, 47);
+}
+h2{
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-content img {
+    flex: 1;
+    max-width: 25%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.about-content .text {
+    flex: 2;
+    margin: 10px;
+    font-size: 18px;
+    color: #5a5858;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        margin-bottom: 20px;
+    }
+}
+
+    </style>
+    <section id="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <img src="https://th.bing.com/th/id/OIP.gLswzzHOF_peJ2tIeAWE8AHaHa?w=800&h=800&rs=1&pid=ImgDetMain" alt="About Us Image">
+            <div class="text">
+                <p>Welcome to our pet clinic. We provide comprehensive services for your pets, including medical care, grooming, and boarding. Our team of experienced veterinarians and staff are dedicated to ensuring the health and well-being of your pets.
+                    In addition to our veterinary services, we house a pet store brimming with carefully selected products to cater to all your pet's needs. From nutritious food and exciting toys to comfortable bedding and grooming essentials, we have everything you need to pamper your pet. Our knowledgeable staff is always on hand to offer expert advice and recommendations.<br>
+                
+                    We believe in building strong relationships with our clients, and we are committed to creating a warm and welcoming environment for both you and your pets. Visit us today and experience the STUART LITTLE difference.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

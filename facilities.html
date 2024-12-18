@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YJ9Q6K9L7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YJ9Q6K9L7');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        :root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --black-color: hsl(220, 24%, 12%);
+  --black-color-light: hsl(220, 24%, 15%);
+  --black-color-lighten: hsl(219, 17%, 40%);
+  --white-color: #fff;
+  --body-color: hsl(216, 14%, 93%);}
+
+  body{
+    background-color: var(--body-color);
+  }
+
+        .facilities {
+    padding: 20px;
+    text-align: center;
+}
+
+.facilities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.facilities-grid a {
+    text-decoration: none;
+}
+
+.facility-card a {
+  background-color: var(--black-color-light);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.facility-card a:hover {
+  background-color: var(--black-color);
+}
+
+
+.facility-card {
+    background-color: var(--black-color-lighten);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 470px;
+    height: 100%;
+    transition: transform 0.3s;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    }
+
+.facility-card:hover {
+    transform: translatey(-10px);
+}
+
+.facility-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.facility-card h2 {
+    font-size: 1.5rem;
+    color: #fbf7f7;
+    margin: 10px 10px 20px;
+}
+
+.facility-card p {
+    padding: 0 10px 10px;
+    color: #ede9e9;
+}
+
+@media (max-width: 768px) {
+    .facilities-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facility-card {
+        width: 90%;
+    }
+}
+
+.contact-info {
+    background-color: var(--black-color-light);
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    color: #fff;
+    height: 400px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+
+}
+
+@media (max-width: 768px) {
+    .facilities-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facility-card {
+        width: 90%;
+    }
+}
+    </style>
+    <main>
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <img src="https://www.teamais.net/wp-content/uploads/2020/08/vet-min.jpg" alt="Facility 1">
+                    <h2>Treatment</h2>
+                    <a href="contactus2.html">Contact Us</a>
+                </div>
+                <div class="facility-card">
+                    <img src="images/1img.jpeg" alt="Facility 2">
+                    <h2>Shopping</h2>
+                    <a href="contactus2.html">Contact Us</a>
+                </div>
+                <div class="facility-card">
+                    <img src="https://www.mobilepetgroomingpro.com/wp-content/uploads/2019/08/hero_home_3.png" alt="Facility 3">
+                    <h2>Grooming</h2>
+                    <a href="contactus2.html"> Contact Us</a>
+                </div>
+                <div class="facility-card">
+                    <img src="https://www.pawmperfluffy.com/wp-content/uploads/2022/08/mobile_cat_spa_weston.jpg" alt="Facility 4">
+                    <h2>Spa</h2>
+                    <a href="contactus2.html">Contact Us</a>
+                </div>
+            
+              
+            </div>
+        </section>
+    </main>
+
+    
+
+
+</body>
+</html>
